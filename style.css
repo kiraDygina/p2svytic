@@ -1,0 +1,138 @@
+nav{display: flex;
+    justify-content: space-around;
+    align-items: center;}
+    nav a{color: black;
+    text-decoration: none;}
+    header{box-shadow: 2px 2px 2px 2px whitesmoke;}
+    .img1 {width: 1000px;
+    height: 500px;
+    
+    }
+
+    
+          
+
+        
+      
+          footer {
+            background-color: #f8f8f8; /* Цвет фона подвала */
+            padding: 20px 0;
+            margin-top: 100px;
+          }
+          
+          .footer-p {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px; /* Отступы между столбцами */
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px; /* Отступы от краёв */
+          }
+          
+          .footer-column {
+            flex: 1; /* Равномерное распределение ширины */
+            min-width: 150px; /* Минимальная ширина колонки */
+          }
+          
+          .footer-column h5 {
+            font-weight: bold;
+            margin-bottom: 10px;
+          }
+          
+          .footer-column p {
+            margin: 5px 0;
+          }
+          
+          .footer-images {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+          }
+          
+          .footer-images img {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
+          }
+          h5{font-size: 20px;}
+    
+          .footer-images img {
+            width: 50px; 
+            height: 50px;
+            margin-right: 10px; 
+        }
+        
+        .footerimg img {
+            width: 100px; 
+            height: 50px;
+            margin-right: 10px;
+        }
+        
+
+        .main-two {
+          text-align: center; 
+      }
+
+    
+      h1 {
+          font-size: 50px;
+          color: #333; 
+          margin-bottom: 20px;
+      }
+
+      
+      .main-two img {
+          max-width: 100%; 
+          height: auto; 
+          margin-bottom: 15px; 
+      }
+
+
+       /* Контейнер общего блока */
+       .main-three {
+        display: flex;
+        align-items: center;
+        gap: 20px; /* Отступ между изображением и текстом */
+        justify-content: center;
+    }
+
+    /* Стили для изображения слева */
+    .main-three img {
+        max-width: 500px; /* Ширина изображения */
+        height: auto; /* Сохраняем пропорции */
+        border-radius: 8px; /* Слегка скругляем углы */
+    }
+
+    /* Стили для текста */
+    .text {
+        max-width: 600px; /* Ограничиваем ширину текста */
+    }
+
+    .text h2 {
+        margin: 0 0 10px 0;
+        color: #333;
+        font-size: 30px;
+    }
+
+    .text p {
+        margin: 0 0 20px 0;
+        line-height: 1.6;
+        color: #555;
+        font-size: 18px;
+    }
+
+    /* Стили для иконок */
+    .icons {
+        display: flex;
+        gap: 15px; /* Расстояние между иконками */
+    }
+
+    .icons img {
+        width: 100px; /* Размер иконок */
+        height: auto;
+        cursor: pointer; /* Указатель при наведении */
+        transition: transform 0.3s ease; /* Эффект при наведении */
+    }
+
+    .icons img:hover {
+        transform: scale(1.1); /* Увеличение при наведении */}
